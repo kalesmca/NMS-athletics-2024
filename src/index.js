@@ -11,7 +11,7 @@ let app = express();
 app.server = http.createServer(app);
 app.get('/', function (req, res) {
     console.log('running success');
-    res.send('HI done')
+    res.send({name:"kaleeswaran"})
 });
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*")
