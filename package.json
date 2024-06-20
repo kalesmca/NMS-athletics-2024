@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Phonepee ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
+    "build": "babel src -s -D -d dist --presets es2015,stage-0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalesmca/NMS-athletics-2024.git"
+  },
+  "author": "Kaleeswaran Mariappan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalesmca/NMS-athletics-2024/issues"
+  },
+  "homepage": "https://github.com/kalesmca/NMS-athletics-2024#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^9.5.0",
+    "nodemon": "^3.1.3"
+  }
+}
